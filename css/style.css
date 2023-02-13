@@ -1,0 +1,54 @@
+.jumbotronmain {
+      background: no-repeat center fixed url(img/coverpic.jpg);
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+       background-size: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+       background-size: cover;
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale')";
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
+      margin-bottom: 0px;
+      padding: 0px;
+    }
+
+   
+
+    .jumbotronmain .overlay {
+      background-color: midnightblue;
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      opacity: 0.55;
+      filter: alpha(opacity=75);
+      height: 100vh;
+    }
+
+   
+   
+   
+
+    @media (max-width: 767px) {
+      .jumbotronmain .scroll-down {
+        width: 100%;
+        right: 0px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .container {
+        padding: 60px 20px;
+        min-width: 280px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .jumbotronmain .container {
+        top: 20%;
+        padding-top: 0px;
+      }
+    }
